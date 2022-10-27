@@ -1,0 +1,8 @@
+{
+  "scripts": {
+    "convert": "json-schema-to-openapi-schema convert ./schemas/latest/devfile.json > ./schemas/latest/devfile-openapi.json"
+  },
+  "dependencies": {
+    "@openapi-contrib/json-schema-to-openapi-schema": "^2.2.3"
+  }
+}
